@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Capanna Italiana - Categories</title>
+
+	<!-- SETUP BOOTSTAP: link to Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- link to JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- Add style -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+	<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+
+		<div class="container-fluid col-8 col-xl-8" id="navbar">
+			
+			<a class="navbar-brand" href="index.html"><img src="pizzalogo.png" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="category.html"><b>Category</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html"><b>Form</b></a>
+                    </li>
+                </ul>
+
+		</div>
+
+		<form class="d-flex">
+                  <input class="form-control" type="text" placeholder="Search…">
+                  <button class="btn btn-success" type="button">Search</button>
+
+            </form>
+        </div>
+    </nav>
+
+	<div class="container-fluid mt-5 col-sm-8 col-8 col-xl-8">
+		<div class="header">
+			<p class="h1">Categories</p>
+			<p class="h4">Craving something specific? We got some options.</p>
+		</div>
+		<br>
+
+	<div class="d-flex flex-wrap justify-content-between" id="textcategory">
+		<div class="card" style="width: 600px;">
+			<div class="card-body bg-custom">Pasta</div>
+		</div>
+		<div class="card" style="width: 600px;">
+			<div class="card-body bg-custom">Pizza</div>
+		</div>
+	</div>
+
+		<br>
+	<div class="d-flex flex-wrap justify-content-between" id="foodcategory">
+		<div class="card" style="width:600px">
+			<img class="card-img-top" src="spaghetti.jpg" alt="Card image" style="width:100%">
+			<div class="card-body">
+		    	<h4 class="card-title">Spaghetti</h4>
+		    	<p class="card-text">Spaghetti noodles coated with delicious, meaty tomato sauce.</p>
+		    	<a href="spaghetti.html" class="btn btn-danger">See Recipe</a>
+	    	</div>
+  		</div>
+  		<div class="card" style="width:600px">
+			<img class="card-img-top" src="pepperoni.jpg" alt="Card image" style="width:100%">
+			<div class="card-body">
+		    	<h4 class="card-title">Pepperoni Pizza</h4>
+		    	<p class="card-text">A delicous bundle of carbs, meat, acidity, and cheese.</p>
+		    	<a href="pizza.html" class="btn btn-danger">See Recipe</a>
+	    	</div>
+  		</div>
+
+	</div>
+	<br>
+	<div class="d-flex flex-wrap justify-content-between" id="foodcategory">
+		<div class="card" style="width:600px">
+			<img class="card-img-top" src="carbonara.jpg" alt="Card image" style="width:100%">
+			<div class="card-body">
+		    	<h4 class="card-title">Carbonara</h4>
+		    	<p class="card-text">Savory, Meaty, Cheesy goodness coated onto lovely noodles.</p>
+		    	<a href="carbonara.html" class="btn btn-danger">See Recipe</a>
+	    	</div>
+  		</div>
+  		<div class="card" style="width:600px">
+			<img class="card-img-top" src="deepdish.jpg" alt="Card image" style="width:100%">
+			<div class="card-body">
+		    	<h4 class="card-title">Deepdish Pizza</h4>
+		    	<p class="card-text">Saucy, Cheesy, messy. Chicago.</p>
+		    	<a href="deepdish.html" class="btn btn-danger">See Recipe</a>
+	    	</div>
+  		</div>
+
+	</div>
+	</div>
+	</body>
+</html>
